@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Amazing_Hotel.Entities
 {
-    internal class Pessoa
+    class Pessoa
     {
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
     }
 }
